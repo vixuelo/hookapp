@@ -39,10 +39,3 @@ describe('testing mainapp', () => {
 
  })
  })
-
- echo "# hookapp" >> README.md
-git init
-git add README.md
-git commit -m "hookapp"
-git branch -M main
-git remote add origin https://github.com/vixuelo/hookapp.git
